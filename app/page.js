@@ -1,0 +1,14 @@
+import Breadcrumb from "@/app/components/Breadcrumb/Breadcrumb";
+
+const breadcrumbItems = [{
+    title: '主页',
+    path: '/',
+}];
+
+export default function AboutUs() {
+  return (
+    <div className={`h-screen flex flex-col items-center justify-center`}>
+        <Breadcrumb items={breadcrumbItems} />
+    </div>
+  );
+}
